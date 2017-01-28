@@ -1,5 +1,5 @@
 [package]
-name = "touch_visualizer"
+name = "piston2d-touch_visualizer"
 version = "0.1.0"
 authors = ["Sven Nilsen <bvssvni@gmail.com>"]
 keywords = ["touch", "visualizer", "piston"]
@@ -8,6 +8,10 @@ license = "MIT"
 readme = "README.md"
 repository = "https://github.com/PistonDevelopers/touch_visualizer.git"
 homepage = "https://github.com/PistonDevelopers/touch_visualizer"
+
+[lib]
+name = "touch_visualizer"
+path = "src/lib.rs"
 
 [dependencies]
 piston2d-graphics = "0.20.1"
