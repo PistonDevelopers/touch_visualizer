@@ -15,7 +15,7 @@ fn main() {
     let opengl = OpenGL::V3_2;
     let mut window: Sdl2Window = WindowSettings::new("touch", [512; 2])
         .exit_on_esc(true)
-        .opengl(opengl)
+        .graphics_api(opengl)
         .build()
         .unwrap();
 
