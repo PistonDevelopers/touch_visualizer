@@ -1,5 +1,7 @@
 //! A library for visualizing input touches with Piston-Graphics
 
+#![deny(unreachable_pub)]
+
 extern crate graphics;
 extern crate input;
 
